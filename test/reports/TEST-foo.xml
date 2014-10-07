@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="foo" errors="0" tests="1" failures="1" time="0.036" timestamp="2014-10-06T20:12:26">
+  <testcase classname="foo" name="should be foo" time="0.004"><failure type="expect" message="Expected &amp;apos;foo&amp;apos; to equal &amp;apos;fo&amp;apos;.">Error: Expected &amp;apos;foo&amp;apos; to equal &amp;apos;fo&amp;apos;.
+    at new jasmine.ExpectationResult (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:114:32)
+    at null.toEqual (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:1316:29)
+    at null.&amp;lt;anonymous&amp;gt; (/Users/blayder/src/parse-to-dropchart-io/test/vmstat_ubuntu_14_spec.js:5:19)
+    at jasmine.Block.execute (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:1145:17)
+    at jasmine.Queue.next_ (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2177:31)
+    at jasmine.Queue.start (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2130:8)
+    at jasmine.Spec.execute (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2458:14)
+    at jasmine.Queue.next_ (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2177:31)
+    at jasmine.Queue.start (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2130:8)
+    at jasmine.Suite.execute (/Users/blayder/src/parse-to-dropchart-io/node_modules/jasmine-node/lib/jasmine-node/jasmine-1.3.1.js:2604:14)</failure></testcase>
+</testsuite>
+</testsuites>
