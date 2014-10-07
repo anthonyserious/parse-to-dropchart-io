@@ -25,10 +25,7 @@ ParseToDropchartIo.prototype.parseVmstat_Ubuntu = function(inputString) {
       if (arr.length === cols.length) {
         obj.values.push(arr);
       } else {
-        console.log("len: "+arr.length);
-        console.dir(arr);
         obj.status = "error";
-        throw "error";
         return obj;
       }
     } else { /* ??? */ }
