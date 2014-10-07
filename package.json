@@ -13,7 +13,8 @@
   "dependencies": {
     "jison": "~0.4",
     "jasmine-node": "~1.14",
-    "q": "~1.0"
+    "q": "~1.0",
+    "lodash": "~2.4"
   },
   "bugs": {
     "url": "https://github.com/anthonyserious/parse-to-dropchart-io/issues"

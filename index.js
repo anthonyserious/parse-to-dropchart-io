@@ -2,6 +2,7 @@ function ParseToDropchartIo() {
   // nothing
 };
 
+//  This, like other dropchart.io functions, operates on a (potentially large) buffer.  It should be rewritten to use streams.
 ParseToDropchartIo.prototype.parseVmstat_Ubuntu = function(inputString) {
   var obj = {};
   var cols = [ 'r', 'b', 'swpd', 'free', 'buff', 'cache', 'si', 'so', 'bi', 'bo', 'in', 'cs', 'us', 'sy', 'id', 'wa', 'st' ];
